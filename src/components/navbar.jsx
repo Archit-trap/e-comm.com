@@ -10,7 +10,7 @@ export function Navbar() {
 
             <div className=" z-10 relative">
                 {/* Navbar */}
-                <nav className='flex justify-around items-center p-4 shadow-md'>
+                <nav className='flex justify-around items-center p-4 shadow-md text-white'>
                     <div className='flex-grow ml-20'>Logo</div>
                     <div className='flex gap-27 mr-40 min-w-3'>
                         <NavLink to="/home">Home</NavLink>

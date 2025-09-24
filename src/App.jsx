@@ -1,17 +1,18 @@
 import React from 'react'
 import './App.css'
-import { HomePage } from './pages/home'
+import { Navbar } from './components/navbar'
 import { BrowserRouter } from 'react-router-dom'
+import { HomePage } from './pages/home'
 
 function App() {
 
   return (
     <>
-    <React.StrictMode>
+
       <BrowserRouter>
-          <HomePage />
+      <HomePage />
       </BrowserRouter>
-    </React.StrictMode>
+
     </>
   )
 }
