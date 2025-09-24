@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .neon {
+        text-shadow:
+  0 0 3px oklch(62.7% 0.265 303.9),
+  0 0 6px oklch(62.7% 0.265 303.9),
+  0 0 12px oklch(62.7% 0.265 303.9);
+
+        color: oklch(62.7% 0.265 303.9);
+        font-weight: bold;
+        animation: neon-flicker 1.5s infinite alternate;
+    }
+
+    .neon-line {
+  box-shadow: 0 0 8px oklch(75% 0.15 70),
+              0 0 16px oklch(75% 0.15 70),
+              0 0 32px oklch(75% 0.15 70);
+}
+}
