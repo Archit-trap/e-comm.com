@@ -1,4 +1,4 @@
-import { Link, Route, Routes, NavLink } from 'react-router-dom'
+import { Link, Route, Routes, NavLink, Navigate } from 'react-router-dom'
 import { HomePage } from '../pages/home'
 import { ProductsPage } from '../pages/products'
 import { CartPage } from '../pages/cart'
@@ -10,7 +10,7 @@ export function Navbar() {
 
             <div className=" z-10 relative">
                 {/* Navbar */}
-                <nav className='flex justify-around items-center p-4 shadow-md text-white'>
+                <nav className='flex justify-around items-center p-4 shadow-md text-white z-10'>
                     <div className='flex-grow ml-20'>Logo</div>
                     <div className='flex gap-27 mr-40 min-w-3'>
                         <NavLink to="/home">Home</NavLink>

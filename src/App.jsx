@@ -10,7 +10,7 @@ function App() {
     <>
 
       <BrowserRouter>
-      <HomePage />
+      <Navbar />
       </BrowserRouter>
 
     </>
